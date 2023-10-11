@@ -1,0 +1,74 @@
+.home_one {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    height: 800px;
+    background-size: cover;
+}
+
+.home_h1 {
+    position: relative;
+    top: 80px;
+    color: #f5fefd;
+    font-size: 70px;
+}
+
+.content {
+    position: relative;
+    top: 85px;
+    /* background-color: wheat; */
+    /* width: 350px; */
+    color: #Fbeed7;
+}
+
+.btn {
+    width: 120px;
+}
+
+.main_img_2 {
+    position: absolute;
+    top: 72px;
+    /* height: 600px; */
+    height: 500px;
+    mix-blend-mode: multiply;
+}
+
+@media only screen and (max-width:473px) {
+    .main_img_2 {
+        position: absolute;
+        top: 72px;
+        /* height: 600px; */
+        height: 400px;
+        mix-blend-mode: multiply;
+    }
+}
+
+@media only screen and (max-width:393px) {
+    .main_img_2 {
+        position: absolute;
+        top: 72px;
+        /* height: 600px; */
+        height: 400px;
+        mix-blend-mode: multiply;
+    }
+}
+
+.img_cat {
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.img_cat:hover {
+    scale: 1.35;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+@media only screen and (max-width:334px) {
+    .main_img_2 {
+        position: absolute;
+        top: 432px;
+        right: 12px;
+        /* height: 600px; */
+        height: 200px;
+        mix-blend-mode: multiply;
+    }
+}

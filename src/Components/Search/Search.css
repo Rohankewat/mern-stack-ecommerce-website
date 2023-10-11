@@ -1,0 +1,45 @@
+.sea_inpt {
+    top: 15px;
+    color: black;
+}
+
+.cls_sea {
+    position: relative;
+    border: 1px solid rgb(237, 235, 235);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.cls_r1 {
+    position: relative;
+    top: 50px;
+}
+
+.search_image {
+    position: relative;
+    /* top: 20px; */
+    margin: 15px;
+    mix-blend-mode: multiply;
+}
+
+.searc_p1 {
+    color: rgb(140, 136, 136);
+}
+
+.searc_p2 {
+    color: rgb(140, 136, 136);
+}
+
+.sea_inpt::placeholder {
+    color: black;
+}
+
+
+@media only screen and (max-width:290px) {
+    .sea_inpt {
+        top: 15px;
+        color: black;
+        width: 130px;
+    }
+
+}

@@ -1,0 +1,73 @@
+.det_img  {
+    position: relative;
+    mix-blend-mode: multiply;
+    width: 250px;
+}
+
+.det_row {
+    top: 25px;
+    position: relative;
+}
+
+.cls1 {
+    position: relative;
+    /* background-color:rgba(0,0,0,0.05); */
+    /* border: 1px solid black; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.det_p1 {
+    font-weight: 600;
+}
+
+.det_p2 {
+    font-weight: 600;
+}
+
+.det_p3 {
+    font-weight: 600;
+}
+
+
+.det_disc {
+    color: rgb(165, 156, 156);
+}
+
+.card_box {
+    margin: 15px;
+    height: 242px;
+    padding: 23px;
+    /* background-color:rgba(0,0,0,0.05); */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.box_img {
+    padding:10px;
+    mix-blend-mode: multiply;
+}
+
+.box_p1 {
+    color: black;
+}
+
+.box_p2 {
+    color: black;
+}
+
+.box_img:hover {
+    scale: 1.35;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+
+
+@media only screen and (max-width:740px) {
+    .det_img  {
+        position: relative;
+        width: 150px;
+        mix-blend-mode: multiply;
+    }
+}

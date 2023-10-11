@@ -1,0 +1,17 @@
+@media only screen and (max-width:674px) {
+   iframe {
+      width: 400px;
+   }
+}
+
+@media only screen and (max-width:449px) {
+   iframe {
+      width: 200px;
+   }
+}
+
+@media only screen and (max-width:260px) {
+   iframe {
+      width: 100px;
+   }
+}

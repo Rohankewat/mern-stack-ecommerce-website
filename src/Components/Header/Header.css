@@ -1,0 +1,56 @@
+.p1 {
+    position: relative;
+    top: 15px;
+    color: white;
+    /* font-weight: bold; */
+    /* font-family: sans-serif; */
+}
+
+.img_1 img {
+    width: 80px;
+    border-radius: 8px;
+}
+
+.fa-cart-shopping:hover {
+    /* padding: 10px; */
+    width: 35px;
+
+    border: 1px solid white;
+}
+
+.one:hover {
+    position: relative;
+    border: 1px solid white;
+    height: 52px;
+}
+
+.inpt1 {
+    position: relative;
+    top: 1px;
+    background-color: #686262;
+}
+
+.header_btn {
+    position: relative;
+    top: 1px;
+    width: 30px;
+}
+
+.header_btn:hover {
+    background-color: orange;
+}
+
+.cls:hover {
+    /* padding: 10px; */
+    width: 35px;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width:315px) {
+    .inpt1 {
+        position: relative;
+        width: 130px;
+        top: 1px;
+        background-color: #686262;
+    }
+}

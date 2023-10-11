@@ -1,0 +1,28 @@
+.cls_head_1 {
+    margin: 10px;
+    padding: 5px;
+    height: 260px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.img_head_1 {
+    mix-blend-mode: multiply;
+    position: relative;
+    margin: 20px;
+}
+
+.head_p1 {
+    color: black;
+}
+
+.head_p2 {
+    color: black;
+}
+
+.img_head_1:hover {
+    scale: 1.35;
+    transition: 0.5s;
+    z-index: 100;
+}

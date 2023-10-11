@@ -1,0 +1,15 @@
+#six {
+    padding: 15px;
+    color: aliceblue;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.app_linking {
+    position: relative;
+    top: 85px;
+    /* background-color: black; */
+}

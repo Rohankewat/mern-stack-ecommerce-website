@@ -1,0 +1,31 @@
+.login_main {
+    background-image: url(../images/dHllHH1.webp);
+    display: flex;
+    /* background-size: cover; */
+    justify-content: center;
+    height: 615px;
+}
+
+.login_main2 {
+    position: relative;
+    top: 130px;
+    height: 280px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(133, 127, 127);
+    box-shadow: rgba(101, 101, 104, 0.2) 0px 7px 29px 0px;
+}
+
+.link1 {
+    position: relative;
+    bottom: 25px;
+}
+
+#two {
+    position: fixed;
+    top: 105px;
+    color: white;
+    font-size: 15px;
+}
